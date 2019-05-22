@@ -1,0 +1,15 @@
+item {
+	id: 1
+	name: 'patient'
+}
+
+item {
+	id: 2
+	name: 'teacher'
+}
+
+item {
+	id: 3
+	name: 'click'
+}
+

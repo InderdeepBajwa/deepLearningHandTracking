@@ -1,0 +1,14 @@
+touch,time,transcription
+Patient,00:00:05,i
+Patient,00:00:05,like
+Patient,00:00:07,bubble
+Patient,00:00:11,you
+Patient,00:00:12,blow
+Patient,00:00:14,bubble
+Patient,00:00:17,more
+Patient,00:00:19,more
+Patient,00:00:21,stop
+Patient,00:00:24,blow
+Patient,00:00:25,bubble
+Patient,00:00:26,you
+Patient,00:00:26,stop

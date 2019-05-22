@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1900</width>
+    <height>890</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextBrowser" name="logView">
+   <property name="geometry">
+    <rect>
+     <x>1500</x>
+     <y>500</y>
+     <width>341</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>1400</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Loading video...</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1630</x>
+     <y>230</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Patient's View</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1640</x>
+     <y>450</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Teacher's View</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1650</x>
+     <y>650</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logs</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="patientView">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>40</y>
+     <width>321</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Launching Patient's view</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="teacherView">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>260</y>
+     <width>321</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Launching Teacher's view</string>
+   </property>
+  </widget>
+  <zorder>image_label</zorder>
+  <zorder>logView</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>patientView</zorder>
+  <zorder>teacherView</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
